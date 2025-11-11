@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from ketnoidb.ketnoi_mysql import connect_mysql
 
-APP_TITLE = "Quản lý Danh Mục (Tkinter + MySQL)"
+APP_TITLE = "Quản lý Danh Mục"
 
 class DanhMucApp(tk.Tk):
     def __init__(self):
